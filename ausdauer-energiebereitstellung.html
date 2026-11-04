@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ausdauer und Energiebereitstellung – Lernseite</title>
+<style>
+:root{--tx:#0f172a;--pr:#1e3a8a;--bg:#f8fafc}
+*{box-sizing:border-box}
+body{font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;background:var(--bg);color:var(--tx)}
+header,main{max-width:920px;margin:0 auto;padding:1rem}
+h1{font-size:1.5rem;line-height:1.25;margin:.2rem 0}h2{font-size:1.4rem;margin-top:.5rem}h3{font-size:1.1rem;margin:.2rem 0}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:.5rem;z-index:9}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+button,select,textarea{font:inherit;color:var(--pr)}
+button,select{min-height:44px;padding:.35rem .8rem;border:2px solid var(--pr);border-radius:8px;background:#fff;cursor:pointer}
+button.p,button[aria-current],button[aria-pressed=true]{background:var(--pr);color:#fff}
+textarea{width:100%;min-height:90px;color:var(--tx);border:2px solid #64748b;border-radius:8px;padding:.5rem}
+:focus-visible{outline:3px solid #d97706;outline-offset:2px}
+#nav{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.6rem}#nav button{min-height:40px;font-size:.9rem}
+progress{width:100%;height:14px}
+.card{background:#fff;border:1px solid #cbd5e1;border-radius:12px;padding:1rem;margin:1rem 0}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem}
+.big{font-size:1.25rem;font-weight:600}
+.fb{border-left:5px solid var(--pr);background:#eef2ff;padding:.5rem .8rem;margin:.5rem 0}.fb:empty{display:none}
+.fb.ok{border-color:#15803d;background:#f0fdf4}.fb.no{border-color:#b45309;background:#fffbeb}
+.ms{background:#fef9c3;border:2px solid #a16207;border-radius:10px;padding:.6rem .9rem;margin:1rem 0}
+.mod-note{font-weight:600;color:#7c2d12}
+.opt{display:block;padding:.3rem 0;min-height:44px}.opt input{width:20px;height:20px;margin-right:.5rem;vertical-align:middle}
+fieldset{border:1px solid #94a3b8;border-radius:8px;margin:.5rem 0}legend{font-weight:600;padding:0 .4rem}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #94a3b8;padding:.4rem;text-align:left;vertical-align:top}
+.wrap{overflow-x:auto}svg{max-width:100%;height:auto}
+.r{display:grid;grid-template-columns:minmax(120px,190px) 1fr minmax(90px,130px);gap:.5rem;align-items:center;margin:.3rem 0}
+.tr{background:#e2e8f0;height:22px;border-radius:6px;overflow:hidden}.bf{height:100%}
+.a{background:repeating-linear-gradient(45deg,#c2410c 0 6px,#fed7aa 6px 10px)}
+.l{background:repeating-linear-gradient(-45deg,#b91c1c 0 6px,#fecaca 6px 10px)}
+.c{background:repeating-linear-gradient(90deg,#1d4ed8 0 6px,#bfdbfe 6px 10px)}
+.f{background:radial-gradient(#15803d 35%,#bbf7d0 40%) 0 0/10px 10px}
+.arr{stroke:#475569;stroke-width:3;fill:none}.arr.on{stroke:#c2410c;stroke-dasharray:10 6;animation:d 1s linear infinite}.arr.on2{stroke:#1d4ed8;stroke-dasharray:10 6;animation:d 1s linear infinite}
+.pause .arr{animation-play-state:paused}@keyframes d{to{stroke-dashoffset:-32}}
+.fill{transform-box:fill-box;transform-origin:bottom}
+.meter{height:26px;background:#e2e8f0;border-radius:6px;overflow:hidden}.meter>div{height:100%;background:#1e3a8a;transition:width .4s}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media print{header,#nav,button,.skip,main>section:not(#s11),dialog{display:none!important}main>section#s11{display:block!important}}
+</style></head><body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<header><h1>Ausdauer und Energiebereitstellung – verstehen, ausprobieren, anwenden</h1>
+<label for="pg" class="sr">Fortschritt</label><progress id="pg" max="9" value="0"></progress>
+<p><span id="pgt"></span> Der Fortschritt wird nur lokal in diesem Browser gespeichert (keine Namen, keine Datenübertragung). <span id="stnote" hidden>Speicher blockiert: Der Fortschritt gilt nur, bis du die Seite schließt.</span> <button id="rst">Fortschritt zurücksetzen</button></p>
+<nav id="nav" aria-label="Module"></nav></header>
+<main id="main">
+
+<section id="s0" hidden><h2 tabindex="-1">Start: Die Leitfrage</h2>
+<p class="big">Warum können wir kurz sehr schnell sprinten, aber lange nur mit geringerem Tempo laufen?</p>
+<div class="grid3"><div class="card"><h3>60-Meter-Sprint</h3><p>Maximales Tempo, wenige Sekunden.</p></div><div class="card"><h3>400-Meter-Lauf</h3><p>Sehr hohes Tempo, gut eine Minute.</p></div><div class="card"><h3>30-Minuten-Lauf</h3><p>Gleichmäßiges, geringeres Tempo.</p></div></div>
+<div data-mcq="start"></div>
+<p>Der Lernpfad hat neun Module. Du kannst sie der Reihe nach oder einzeln über die Navigation bearbeiten. Das Glossar ist jederzeit erreichbar.</p>
+<button class="p" onclick="show(1)">Mit Modul 1 beginnen</button></section>
+
+<section id="s1" hidden><h2 tabindex="-1">1 Was ist Ausdauer?</h2>
+<p><b>Ermüdungswiderstandsfähigkeit</b>: eine Belastung lange durchhalten, ohne dass die Leistung stark nachlässt. <b>Erholungsfähigkeit</b>: sich nach Belastung schnell erholen, auch zwischen wiederholten intensiven Aktionen.</p>
+<h3>Aufgabe: Ordne zu</h3>
+<div data-mcq="e1"></div><div data-mcq="e2"></div><div data-mcq="e3"></div><div data-mcq="e4"></div>
+<h3>Akute Reaktion und langfristige Anpassung</h3>
+<p><b>Akute Belastungsreaktion</b>: Veränderungen während und kurz nach einer Belastung (z. B. Puls steigt). <b>Langfristige Trainingsanpassung</b>: Veränderungen nach Wochen und Monaten regelmäßigen Trainings. Wähle eine Anpassung:</p>
+<svg viewBox="0 0 420 90" role="img" aria-labelledby="t1"><title id="t1">Schema: Herz, Blutgefäße, Muskelzelle</title><desc>Links das Herz, in der Mitte ein Blutgefäß, rechts die Muskelzelle.</desc><circle cx="60" cy="45" r="34" fill="#fecaca" stroke="#7f1d1d" stroke-width="3"/><text x="60" y="50" text-anchor="middle" font-size="14">Herz</text><path d="M95 45H320" stroke="#7f1d1d" stroke-width="6"/><text x="205" y="35" text-anchor="middle" font-size="13">Blutgefäße</text><rect x="320" y="15" width="90" height="60" rx="16" fill="#fed7aa" stroke="#7c2d12" stroke-width="3"/><text x="365" y="50" text-anchor="middle" font-size="13">Muskelzelle</text></svg>
+<div role="group" aria-label="Anpassungen"><button data-ad="0">Herz</button> <button data-ad="1">Blutgefäße</button> <button data-ad="2">Muskelzelle</button></div>
+<div class="fb" id="adfb" aria-live="polite"></div>
+<div class="ms">Merksatz: Ausdauer heißt, Belastungen lange durchzuhalten und sich schnell zu erholen. Training verändert Herz-Kreislauf-System und Muskelzelle.</div></section>
+
+<section id="s2" hidden><h2 tabindex="-1">2 ATP: Die direkte Energiewährung</h2>
+<p><b>ATP</b> (Adenosintriphosphat) wird bei Muskelarbeit zu <b>ADP</b> (Adenosindiphosphat) und anorganischem Phosphat (Pi) gespalten. Dabei wird Energie für die Muskelarbeit nutzbar. ATP muss fortlaufend erneuert werden; das leisten die Energiebereitstellungswege.</p>
+<div data-mcq="p2"></div>
+<p class="mod-note">Beobachte! Die getrennten Schaltflächen sind eine didaktische Zerlegung. Im Körper laufen ATP-Verbrauch und ATP-Resynthese gleichzeitig ab.</p>
+<div class="card"><svg id="atp" viewBox="0 0 420 190" role="img" aria-labelledby="t2"><title id="t2">ATP-ADP-Kreislauf</title><desc>ATP wird zu ADP und Pi gespalten (obere Linie, Energie für Muskelarbeit). ADP und Pi werden durch die Energiebereitstellungswege wieder zu ATP aufgebaut (untere Linie).</desc>
+<rect x="15" y="65" width="120" height="60" rx="12" fill="#fff" stroke="#1e3a8a" stroke-width="3"/><text x="75" y="102" text-anchor="middle" font-size="18">ATP</text>
+<rect x="285" y="65" width="120" height="60" rx="12" fill="#fff" stroke="#1e3a8a" stroke-width="3"/><text x="345" y="102" text-anchor="middle" font-size="18">ADP + Pi</text>
+<path id="a1" class="arr" d="M140 80H280"/><path id="a2" class="arr" d="M280 112H140"/>
+<text x="210" y="62" text-anchor="middle" font-size="12">Spaltung: Energie für Muskelarbeit →</text><text x="210" y="140" text-anchor="middle" font-size="12">← Resynthese (durch die Wege)</text></svg>
+<button id="b1" class="p">Muskelarbeit starten</button> <button id="b2" class="p">ATP erneuern</button> <button id="b3">Schrittweise erklären</button> <button id="b4" aria-pressed="false">Animation pausieren</button>
+<div class="fb" id="atpfb" aria-live="polite"></div></div>
+<h3>Übung: Begriffe einsetzen</h3>
+<div class="card" id="atpx"></div>
+<div class="ms">Merksatz: ATP ist die direkte Energiewährung. Es wird ständig verbraucht und muss ständig erneuert werden.</div></section>
+
+<section id="s3" hidden><h2 tabindex="-1">3 Vier Wege zur ATP-Erneuerung</h2>
+<p>Die vier Karten sind eine <b>didaktische Einteilung</b>. Die beiden aeroben Karten unterscheiden die Energieträger. Alle Wege arbeiten parallel, ihre Anteile verschieben sich. Der Proteinstoffwechsel bleibt hier vereinfachend unberücksichtigt. Wähle bis zu zwei Wege zum Vergleich:</p>
+<div class="grid3" id="wcards"></div><div class="wrap" id="wtab"></div>
+<div class="ms">Merksatz: Kein Weg arbeitet allein. Die Wege unterscheiden sich in Energiequelle, Rate und Kapazität.</div></section>
+
+<section id="s4" hidden><h2 tabindex="-1">4 Rate und Kapazität</h2>
+<p><b>Bereitstellungsrate</b> = wie viel ATP pro Zeit erneuert werden kann. <b>Kapazität</b> = wie viel Energie insgesamt zur Verfügung steht.</p>
+<div data-mcq="p4"></div>
+<p><b>Denkmodell – keine maßstabsgetreue Darstellung des Stoffwechsels.</b> Speichergröße = Kapazität, Breite des Auslasses = Rate.</p>
+<div class="card"><div role="group" aria-label="Speicher wählen"><button data-st="0">Schneller Speicher</button> <button data-st="1">Mittlerer Speicher</button> <button data-st="2">Großer Speicher</button></div>
+<svg id="tank" viewBox="0 0 300 200" role="img" aria-labelledby="t4"><title id="t4">Speichermodell</title><desc>Ein Behälter mit Auslass. Die Höhe zeigt die Kapazität, die Dicke des Auslasses die Rate.</desc></svg>
+<button id="drain" class="p">Entleeren</button> <button id="refill">Neu füllen</button>
+<div class="fb" id="stfb" aria-live="polite"></div></div>
+<div data-mcq="q4a"></div><div data-mcq="q4b"></div>
+<div class="ms">Merksatz: Rate und Kapazität sind verschieden. Hohe Rate mit kleinem Vorrat ist schnell leer; großer Vorrat mit geringer Rate hält lange, liefert aber weniger pro Zeit.</div></section>
+
+<section id="s5" hidden><h2 tabindex="-1">5 Der Energiemix verändert sich</h2>
+<div data-mcq="p5"></div>
+<p class="mod-note">Beobachte! Die Balken sind qualitative Orientierung ohne Messwerte. Auch „sehr gering“ bedeutet nicht null: alle Wege tragen immer mit bei.</p>
+<div class="card"><label for="sc">Szenario: </label><select id="sc"></select>
+<fieldset id="phs" hidden><legend>800 m: Welche Sicht?</legend>
+<label class="opt"><input type="radio" name="ph" value="g" checked>Gesamtbeitrag über das ganze Rennen</label>
+<label class="opt"><input type="radio" name="ph" value="s">Momentaner Beitrag: Start</label>
+<label class="opt"><input type="radio" name="ph" value="h">Momentaner Beitrag: Hauptphase</label>
+<label class="opt"><input type="radio" name="ph" value="e">Momentaner Beitrag: Endspurt</label></fieldset>
+<p id="mixinfo"></p><div id="mix" role="group" aria-label="Beiträge der vier Wege"></div><div class="fb" id="mixwhy" aria-live="polite"></div></div>
+<p>Erkläre deine Beobachtung: Welche Wege tragen im 400-m-Lauf und im 30-Minuten-Lauf jeweils viel bei, und warum?</p>
+<div class="ms">Merksatz: Die Wege tragen immer parallel bei. Intensität und Dauer verschieben nur den Mix. Fettverbrennung läuft von Anfang an mit.</div></section>
+
+<section id="s6" hidden><h2 tabindex="-1">6 Laktat und Schwellen</h2>
+<p>Laktat ist ein Stoffwechselprodukt <b>und</b> ein nutzbarer Energieträger. Bildung und Weiterverwendung laufen gleichzeitig. Übersteigt die Bildung längerfristig die Weiterverwendung, steigt die Blutlaktatkonzentration. Laktat ist <b>nicht</b> die Ursache von Muskelkater, und Ermüdung hat mehrere Ursachen.</p>
+<div data-mcq="p6"></div>
+<div class="card"><p><b>Qualitatives Modell ohne individuelle Vorhersage.</b></p>
+<label for="rb">Bildung von Laktat: <output id="ob">3</output></label><br><input type="range" id="rb" min="1" max="5" value="3" style="width:100%">
+<label for="ra">Weiterverwendung/Abbau: <output id="oa">3</output></label><br><input type="range" id="ra" min="1" max="5" value="3" style="width:100%">
+<p>Dargestellte Konzentration:</p><div class="meter"><div id="mt" style="width:40%"></div></div><div class="fb" id="lafb" aria-live="polite"></div></div>
+<h3>Schematische Laktat-Leistungs-Kurve</h3>
+<p>Beispielkurve, keine Messdaten. Die Marken 2 und 4 mmol/l sind nur traditionelle Orientierungswerte und keine für alle gültigen Grenzen. Aerobe Bereitstellung bleibt auch oberhalb jeder Schwelle beteiligt.</p>
+<svg viewBox="0 0 420 240" role="img" aria-labelledby="t6"><title id="t6">Schematische Laktat-Leistungs-Kurve</title><desc>Die Kurve bleibt bei niedriger Intensität flach, steigt in der Mitte an und wird bei hoher Intensität steil.</desc>
+<path d="M40 20V200H400" stroke="#0f172a" fill="none" stroke-width="2"/><text x="220" y="228" text-anchor="middle" font-size="12">Belastungsintensität (niedrig → hoch)</text><text x="8" y="14" font-size="12">Blutlaktat (mmol/l)</text>
+<path d="M40 150H400" stroke="#64748b" stroke-dasharray="4"/><text x="44" y="146" font-size="11">2 mmol/l (traditionelle Orientierung)</text>
+<path d="M40 110H400" stroke="#64748b" stroke-dasharray="4"/><text x="44" y="106" font-size="11">4 mmol/l (traditionelle Orientierung)</text>
+<polyline points="40,177 70,175 120,168 180,150 230,128 270,110 320,76 360,40" fill="none" stroke="#b91c1c" stroke-width="3"/>
+<g fill="#1e3a8a"><circle cx="70" cy="175" r="6"/><circle cx="180" cy="150" r="6"/><circle cx="270" cy="110" r="6"/><circle cx="360" cy="40" r="6"/></g></svg>
+<div role="group" aria-label="Punkte der Kurve"><button data-cp="0">Punkt 1</button> <button data-cp="1">Punkt 2</button> <button data-cp="2">Punkt 3</button> <button data-cp="3">Punkt 4</button></div>
+<div class="fb" id="cpfb" aria-live="polite"></div>
+<p>Textzusammenfassung: Die Kurve ist bei niedriger Intensität flach, steigt dann an und wird bei hoher Intensität steil.</p>
+<div data-mcq="q6a"></div><div data-mcq="q6b"></div>
+<div class="ms">Merksatz: Laktat wird gleichzeitig gebildet und verwendet. Steigt der Blutwert, überwiegt die Bildung. Schwellenwerte sind Orientierungen, keine individuellen Grenzen.</div></section>
+
+<section id="s7" hidden><h2 tabindex="-1">7 Ausdauerarten und Trainingsmethoden</h2>
+<p>Ausdauer lässt sich aus mehreren, sich überschneidenden Blickwinkeln beschreiben: <b>allgemeine (grundlegende)</b> Ausdauer ist sportartunabhängig, <b>sportartspezifische</b> Ausdauer passt zu den Anforderungen einer Sportart. Anforderungen können eher <b>aerob</b> oder eher <b>anaerob</b> geprägt sein; meist spielen beide eine Rolle.</p>
+<p><b>Extensiv</b> = geringere Intensität, größerer Umfang. <b>Intensiv</b> = höhere Intensität. <b>Unvollständige Erholung</b> = die Pause reicht nicht für eine volle Erholung; die nächste Belastung beginnt bei noch nicht vollständig erholtem Zustand.</p>
+<div role="group" aria-label="Methoden" id="mbtn"></div><div class="card" id="mcard" aria-live="polite">Wähle eine Methode.</div>
+<h3>Aufgabe: Diagramm zuordnen</h3>
+<div data-mcq="t1"></div><div data-mcq="t2"></div><div data-mcq="t3"></div>
+<div class="ms">Merksatz: Methoden unterscheiden sich durch die Gestaltung von Belastung und Erholung, also Intensität, Dauer und Pausen.</div></section>
+
+<section id="s8" hidden><h2 tabindex="-1">8 Belastung steuern und Training planen</h2>
+<div class="card"><b>Beispiel:</b> 3× pro Woche, je 4 × 5 Minuten Laufen mit 2 Minuten Gehen. <b>Intensität</b>: leicht (Borg 11–13). <b>Dauer</b> einer Belastung: 5 min. <b>Dichte</b>: Belastung : Erholung = 5 : 2. <b>Umfang</b>: 20 min Belastung je Einheit, 60 min pro Woche. <b>Häufigkeit</b>: 3× pro Woche. (Beispielwerte, keine Normwerte.)</div>
+<p><b>Borg-Skala 6–20:</b> 6 keine Anstrengung · 9 sehr leicht · 11 leicht · 13 etwas anstrengend · 15 anstrengend · 17 sehr anstrengend · 19 extrem anstrengend · 20 maximale Anstrengung.</p>
+<div class="wrap"><table><tr><th>Methode</th><th>Stärke</th><th>Grenze</th></tr>
+<tr><td>Sprechtest</td><td>Ohne Gerät sofort anwendbar</td><td>Grobe Orientierung; keine sichere Stoffwechselbestimmung, auch nicht über die Nasenatmung</td></tr>
+<tr><td>Borg-Skala</td><td>Erfasst das eigene Empfinden</td><td>Subjektiv; Tagesform und Übung spielen mit</td></tr>
+<tr><td>Herzfrequenz</td><td>Messbar, Verlauf sichtbar</td><td>Schwankt (Hitze, Schlaf, Stress); starre Formeln passen nicht für alle</td></tr></table></div>
+<h3>Trainingsplan-Baukasten</h3>
+<p>Ziel: Eine gesunde, wenig trainierte Person will einen gleichmäßigen 30-Minuten-Lauf schaffen. <b>Didaktisches Fallbeispiel – kein individueller medizinischer Trainingsplan.</b> Bei Beschwerden Belastung abbrechen, bei Vorerkrankungen vorher ärztlich klären.</p>
+<div class="card" id="pl"></div><div class="fb" id="plfb" aria-live="polite"></div>
+<div data-open="plan"></div>
+<div class="ms">Merksatz: Belastung und Erholung gehören zusammen. Steigere nicht alles gleichzeitig.</div></section>
+
+<section id="s9" hidden><h2 tabindex="-1">9 Selbsttest und Abschluss</h2>
+<p>Der Test zeigt deinen Lernstand je Themenfeld, keine Note. Mehrfachauswahl ist gekennzeichnet: Punkt nur bei exakt richtiger Auswahl.</p>
+<div id="quiz"></div><button class="p" id="qgo">Auswerten</button> <button id="qre">Wiederholen</button>
+<div class="fb" id="qres" aria-live="polite"></div>
+<h3>Abschluss</h3><p class="big">Warum können wir kurz sehr schnell sprinten, aber lange nur mit geringerem Tempo laufen?</p>
+<div data-open="leit"></div></section>
+
+<section id="s10" hidden><h2 tabindex="-1">Glossar</h2><dl id="gl"></dl></section>
+
+<section id="s11" hidden><h2 tabindex="-1">Zusammenfassung, Quellen und Modellgrenzen</h2>
+<button class="p" onclick="print()">Zusammenfassung drucken</button>
+<h3>Vier Wege im Vergleich</h3><div class="wrap" id="stab"></div>
+<h3>Merksätze</h3><ul><li>Ausdauer = Ermüdungswiderstandsfähigkeit + Erholungsfähigkeit.</li><li>ATP wird ständig verbraucht und ständig erneuert.</li><li>Rate und Kapazität sind verschieden.</li><li>Alle Wege arbeiten parallel; nur die Anteile verschieben sich. Fettverbrennung läuft von Beginn an mit.</li><li>Laktat wird gebildet und verwendet; es verursacht keinen Muskelkater. 2 und 4 mmol/l sind traditionelle Orientierungen.</li><li>Methoden unterscheiden sich durch die Gestaltung von Belastung und Erholung.</li><li>Belastung : Erholung beachten, nicht alles gleichzeitig steigern.</li></ul>
+<h3>Quellen und Modellgrenzen</h3>
+<p>Quellenstatus: Diese Seite beruht auf allgemeinem sportwissenschaftlichem Grundlagenwissen und den inhaltlichen Vorgaben der Aufgabenstellung. Die genannten Unterrichtsfolien und die Seite zum <a href="https://www.bildungsplaene-bw.de/Sp_OS">Bildungsplan Sport (berufliches Gymnasium BW)</a> wurden für diese Seite <b>nicht geprüft</b>; es wurde kein Bildungsplanabgleich durchgeführt. Die Einstufungen im Energiemix sind qualitative Orientierungen und sollten von einer Fachlehrkraft geprüft werden.</p>
+<p>Modellgrenzen: Speichermodell, Laktat-Ströme, Laktat-Kurve und Energiemix sind schematisch und sagen nichts über einzelne Personen voraus. Der Proteinstoffwechsel ist vereinfachend nicht berücksichtigt. Die Trainingsbeispiele sind keine Normwerte.</p></section>
+</main>
+<div id="live" class="sr" aria-live="polite"></div>
+<dialog id="dlg"><p>Gesamten Fortschritt wirklich zurücksetzen?</p><button id="dno">Abbrechen</button> <button id="dyes" class="p">Zurücksetzen</button></dialog>
+<script>
+const $=(s,e=document)=>e.querySelector(s),$$=(s,e=document)=>[...e.querySelectorAll(s)];
+const NAMES=['Start','1 Ausdauer','2 ATP','3 Vier Wege','4 Rate & Kapazität','5 Energiemix','6 Laktat','7 Methoden','8 Planen','9 Selbsttest','Glossar','Zusammenfassung & Quellen'];
+let mem={};
+const store={get(){try{return JSON.parse(localStorage.getItem('ausd')||'{}')}catch(e){return mem}},set(v){mem=v;try{localStorage.setItem('ausd',JSON.stringify(v))}catch(e){$('#stnote').hidden=false}}};
+let done=store.get().done||[];
+function fb(el,ok,t){el.className='fb '+(ok===null?'':ok?'ok':'no');el.innerHTML=t}
+function refresh(){$('#nav').innerHTML=NAMES.map((n,i)=>`<button data-i="${i}" ${i==cur?'aria-current="page"':''}>${done.includes(i)?'✓ ':''}${n}</button>`).join('');
+const k=done.filter(i=>i>=1&&i<=9).length;$('#pg').value=k;$('#pgt').textContent=k+' von 9 Modulen als bearbeitet markiert.';
+$$('.dn').forEach(b=>{const m=+b.dataset.m;b.setAttribute('aria-pressed',done.includes(m));b.textContent=done.includes(m)?'✓ Modul bearbeitet (klicken zum Rückgängigmachen)':'Modul als bearbeitet markieren'})}
+let cur=0;
+function show(i){cur=i;$$('main>section').forEach((s,j)=>s.hidden=j!=i);refresh();$('main>section:not([hidden]) h2').focus();scrollTo(0,0)}
+$('#nav').onclick=e=>{const b=e.target.closest('button');if(b)show(+b.dataset.i)};
+for(let i=1;i<=9;i++)$('#s'+i).insertAdjacentHTML('beforeend',`<p><button class="dn" data-m="${i}"></button></p>`);
+document.addEventListener('click',e=>{const b=e.target.closest('.dn');if(!b)return;const m=+b.dataset.m;done=done.includes(m)?done.filter(x=>x!=m):[...done,m];store.set({done});refresh()});
+$('#rst').onclick=()=>$('#dlg').showModal();$('#dno').onclick=()=>$('#dlg').close();
+$('#dyes').onclick=()=>{done=[];store.set({done});$('#dlg').close();refresh()};
+
+/* Methodenschemata */
+const PAT={ed:[[[22,200]],'ein langer, gleichmäßiger, niedriger Block ohne Pause'],id:[[[44,150]],'ein gleichmäßiger, höherer und kürzerer Block ohne Pause'],fs:[[[24,35],[44,35],[18,35],[40,35],[28,35],[44,35]],'durchgehender Verlauf mit wechselnder Höhe, ohne Pause'],ei:[[[32,28],[5,16],[32,28],[5,16],[32,28],[5,16],[32,28],[5,16],[32,28]],'fünf mittelhohe, längere Blöcke mit kurzen Pausen'],ii:[[[58,14],[5,26],[58,14],[5,26],[58,14],[5,26],[58,14],[5,26],[58,14],[5,26],[58,14]],'sechs sehr hohe, kurze Blöcke mit längeren Pausen']};
+function sch(k,lab){let x=30,r='';PAT[k][0].forEach(([h,w])=>{r+=`<rect x="${x}" y="${80-h}" width="${w}" height="${h}" fill="${h<=5?'#94a3b8':'#1d4ed8'}"/>`;x+=w});
+return `<svg viewBox="0 0 280 110" role="img" aria-label="Belastungs-Zeit-Schema${lab?': '+lab:''}. ${PAT[k][1]}"><path d="M30 10V80H270" stroke="#0f172a" fill="none"/><text x="150" y="102" text-anchor="middle" font-size="11">Zeit →</text><text x="4" y="14" font-size="11">Intensität ↑</text>${r}</svg><p>Beschreibung: ${PAT[k][1]}.</p>`}
+const MN=['Extensive Dauermethode','Intensive Dauermethode','Fahrtspiel','Extensive Intervallmethode','Intensive Intervallmethode'],MK=['ed','id','fs','ei','ii'];
+const MI=[['Lange, gleichmäßige Belastung mit niedriger bis moderater Intensität ohne Pause.','z. B. 40 Minuten locker joggen (Beispiel)','Grundlagenausdauer, aerobe Basis'],['Gleichmäßige Belastung mit höherer Intensität, kürzer, ohne Pause.','z. B. 20 Minuten zügiges Tempo (Beispiel)','Leistungsfähigkeit bei zügigem Dauertempo'],['Dauerlauf mit frei wechselndem Tempo nach Gefühl oder Gelände.','z. B. im Wald bis zur nächsten Baumgruppe schneller laufen (Beispiel)','Abwechslung, Anpassung an wechselnde Tempi'],['Planmäßiger Wechsel von längeren Belastungen mittlerer Intensität und Erholung.','z. B. 5 × 3 min zügig, je 2 min Trabpause; Belastung : Erholung = 3 : 2 (Beispiel)','Ausdauerleistung und Erholungsfähigkeit'],['Planmäßiger Wechsel von kurzen, intensiven Belastungen und unvollständiger Erholung.','z. B. 6 × 1 min sehr schnell, je 2 min Gehen; Belastung : Erholung = 1 : 2 (Beispiel)','Leistungsfähigkeit bei hoher Intensität. Nicht jedes Intervalltraining liegt automatisch über der anaeroben Schwelle.']];
+$('#mbtn').innerHTML=MN.map((n,i)=>`<button data-m="${i}">${n}</button>`).join(' ');
+$('#mbtn').onclick=e=>{const b=e.target.closest('button');if(!b)return;const i=+b.dataset.m;$$('#mbtn button').forEach(x=>x.removeAttribute('aria-pressed'));b.setAttribute('aria-pressed','true');$('#mcard').innerHTML=`<h3>${MN[i]}</h3><p>${MI[i][0]}</p>${sch(MK[i],MN[i])}<p><b>Beispiel:</b> ${MI[i][1]}</p><p><b>Zielrichtung:</b> ${MI[i][2]}</p>`};
+
+/* Auswahlaufgaben */
+const SIT=['Ermüdungswiderstandsfähigkeit','Erholungsfähigkeit','Beides'];
+const MCQ={
+start:['Was vermutest du? Warum können wir nur kurz sehr schnell sprinten?',['Es gibt Wege der Energiebereitstellung mit sehr schneller, aber begrenzter Versorgung, und andere mit langsamerer, aber lang anhaltender','Beim Sprint wird nur Zucker, beim Laufen nur Fett genutzt','Sprinter haben einfach mehr Sauerstoff'],[0],'Das Zusammenspiel mehrerer Wege mit unterschiedlicher Rate und Kapazität erklärt vieles. Die zweite Antwort ist eine verbreitete Vereinfachung: Die Wege laufen parallel. Wir klären das Schritt für Schritt.',null,1],
+e1:['Ein gleichmäßiger Lauf über 30 Minuten wird durchgehalten.',SIT,[0],'Hier geht es darum, eine Dauerbelastung ohne starken Leistungsabfall durchzuhalten.'],
+e2:['Ein Handballer führt viele Sprints aus, dazwischen gibt es kurze Pausen.',SIT,[1,2],'Entscheidend ist, wie gut er sich zwischen den Aktionen erholt. Beides ist begründbar, weil die Gesamtbelastung lange durchgehalten werden muss.'],
+e3:['Ein Fußballspieler läuft in der 80. Minute noch fast so schnell wie am Anfang.',SIT,[0,2],'Das Tempo wird trotz Ermüdung gehalten. Auch die Erholung zwischen intensiven Aktionen kann dazu beitragen.'],
+e4:['Nach einem Sprint ist eine Läuferin nach kurzer Zeit wieder bereit für den nächsten.',SIT,[1],'Schnelle Wiederherstellung nach Belastung ist Erholungsfähigkeit.'],
+p2:['Was vermutest du? Reicht der ATP-Vorrat im Muskel für lange Muskelarbeit?',['Ja, ATP muss kaum erneuert werden','Nein, ATP wird laufend verbraucht und muss laufend erneuert werden'],[1],'Der ATP-Vorrat im Muskel ist klein. Muskelarbeit verbraucht ATP laufend, deshalb muss es ständig erneuert werden.',null,1],
+p4:['Was vermutest du? Welcher Speicher liefert kurzzeitig am meisten Energie pro Zeit?',['Der mit dem größten Vorrat','Der mit dem breitesten Auslass'],[1],'Der Auslass (Rate) bestimmt, wie viel pro Zeit fließt. Probiere es mit den drei Speichern aus.',null,1],
+q4a:['Welcher Speicher passt zu einem sehr hohen kurzfristigen Bedarf?',['Schneller Speicher: breiter Auslass, kleiner Vorrat','Großer Speicher: schmaler Auslass, großer Vorrat'],[0],'Für kurzfristig hohen Bedarf braucht man hohe Rate. Der kleine Vorrat ist aber schnell leer.'],
+q4b:['Warum kann man nicht beliebig lange sprinten?',['Die Wege mit sehr hoher Rate haben nur eine geringe Kapazität','Der Körper will nicht'],[0],'Hohe Rate geht mit begrenzter Kapazität einher. Ein großer Vorrat bedeutet nicht automatisch hohe Leistung, weil die Rate begrenzt sein kann.'],
+p5:['Was vermutest du? Wie tragen die Wege beim 800-m-Lauf insgesamt bei?',['Nur anaerob','Aerobe und laktazide Bereitstellung tragen beide viel bei, parallel','Nur Fett'],[1],'Der 800-m-Lauf ist insgesamt nicht überwiegend anaerob. Der Endspurt verändert den momentanen Mix, nicht rückwirkend den ganzen Lauf.',null,1],
+p6:['Was vermutest du? Was passiert mit der Blutlaktatkonzentration, wenn die Bildung dauerhaft größer ist als die Weiterverwendung?',['Sie bleibt gleich','Sie steigt','Sie sinkt'],[1],'Überwiegt die Bildung, steigt die Konzentration. Prüfe das mit den Reglern.',null,1],
+q6a:['Aufgabe zur Kurve: Was zeigt der steile Anstieg bei hoher Intensität?',['Die Bildung übersteigt die Weiterverwendung deutlich','Ab hier ist die aerobe Bereitstellung abgeschaltet','Ab hier entsteht Muskelkater durch Laktat'],[0],'Der Blutwert steigt, wenn mehr gebildet als verwendet wird. Aerobe Bereitstellung bleibt beteiligt; Laktat verursacht keinen Muskelkater.'],
+q6b:['Aufgabe zur Kurve: Zwei Personen erreichen bei verschiedener Intensität 4 mmol/l. Was folgt?',['Der Wert ist eine Orientierung; Schwellen sind individuell verschieden','4 mmol/l ist für alle die exakte Grenze'],[0],'2 und 4 mmol/l sind traditionelle Orientierungswerte, keine universellen individuellen Grenzen.'],
+t1:['Welche Methode zeigt das Diagramm?',MN,[4],'Kurze, hohe Belastungen mit längeren, unvollständigen Pausen: intensive Intervallmethode.',sch('ii')],
+t2:['Welche Methode zeigt dieses Diagramm?',MN,[2],'Durchgehende Belastung mit wechselndem Tempo ohne feste Pausen: Fahrtspiel.',sch('fs')],
+t3:['Welche Methode zeigt dieses Diagramm?',MN,[0],'Langer, gleichmäßiger Block mit niedriger Intensität: extensive Dauermethode.',sch('ed')]};
+$$('[data-mcq]').forEach(el=>{const k=el.dataset.mcq,[q,o,a,e,svg,p]=MCQ[k];el.className='card';
+el.innerHTML=(svg||'')+`<fieldset><legend>${q}</legend>`+o.map((t,i)=>`<label class="opt"><input type="radio" name="q${k}" value="${i}">${t}</label>`).join('')+'</fieldset><div class="fb" aria-live="polite"></div>';
+el.onchange=ev=>{const ok=a.includes(+ev.target.value);fb(el.lastChild,ok,(p?(ok?'Vermutung passt. ':'Vermutung weicht ab. '):(ok?'✔ Passt. ':'✖ Noch nicht. '))+e)}});
+
+/* Modul 1 */
+const AD=[['Höheres Schlagvolumen','Das Herz pumpt pro Schlag mehr Blut. Nutzen: mehr Sauerstoff und Nährstoffe pro Herzschlag, Herzfrequenz bei gleicher Belastung niedriger.'],['Bessere Kapillarisierung','Mehr feine Blutgefäße um die Muskelfasern. Nutzen: kürzere Wege für Stoffaustausch, bessere Versorgung und Abtransport von Stoffwechselprodukten.'],['Verbesserte oxidative Leistungsfähigkeit','Muskelzelle nutzt Sauerstoff besser (u. a. Mitochondrien). Nutzen: mehr ATP aus aerober Bereitstellung, Belastung länger durchhaltbar.']];
+$$('[data-ad]').forEach(b=>b.onclick=()=>{const a=AD[b.dataset.ad];fb($('#adfb'),null,`<b>${a[0]}</b> → ${a[1]}`)});
+
+/* Modul 2 */
+const ST=['1. ATP wird zu ADP und Pi gespalten; die frei werdende Energie wird für Muskelarbeit nutzbar.','2. ADP und Pi bleiben als Ausgangsstoffe zurück.','3. Die Energiebereitstellungswege bauen aus ADP und Pi wieder ATP auf (Resynthese).','4. Im Körper laufen alle Schritte gleichzeitig und ständig ab.'];let sti=0;
+$('#b1').onclick=()=>{$('#a1').setAttribute('class','arr on');fb($('#atpfb'),null,ST[0])};
+$('#b2').onclick=()=>{$('#a2').setAttribute('class','arr on2');fb($('#atpfb'),null,ST[2])};
+$('#b3').onclick=()=>{fb($('#atpfb'),null,ST[sti]);sti=(sti+1)%4;};
+$('#b4').onclick=e=>{const p=e.target.getAttribute('aria-pressed')!='true';e.target.setAttribute('aria-pressed',p);$('#atp').classList.toggle('pause',p)};
+const AX=[['Bei Muskelarbeit wird ATP zu','ADP',['ADP','Laktat','Kreatin'],'und anorganischem Phosphat gespalten.'],['Den Wiederaufbau von ATP nennt man','Resynthese',['Resynthese','Ermüdung','Dichte'],'.'],['ATP muss','fortlaufend',['fortlaufend','nur nach dem Sport','nie'],'erneuert werden.']];
+$('#atpx').innerHTML=AX.map((x,i)=>`<p>${x[0]} <select aria-label="Lücke ${i+1}" data-i="${i}"><option value="">wählen</option>${x[2].map(o=>`<option>${o}</option>`).join('')}</select> ${x[3]}</p>`).join('')+'<button class="p" id="axb">Prüfen</button><div class="fb" id="axf" aria-live="polite"></div>';
+$('#axb').onclick=()=>{let n=0;$$('#atpx select').forEach(s=>{if(s.value==AX[s.dataset.i][1])n++});fb($('#axf'),n==3,`${n} von 3 Lücken stimmen. ADP entsteht bei der Spaltung, die Erneuerung heißt Resynthese und läuft fortlaufend, weil ATP ständig verbraucht wird.`)};
+
+/* Modul 3 */
+const W={a:{n:'Anaerob-alaktazid',s:'● Orange, Punktmuster',q:'Kreatinphosphat',o:'Kein unmittelbarer Sauerstoffbedarf dieses Reaktionswegs; die Auffüllung der Speicher geschieht in der Erholung unter Beteiligung der aeroben Bereitstellung',z:'Zellplasma',r:'sehr hoch',k:'gering',b:'60-m-Sprint, Sprungkraft',x:'Kreatinphosphat + ADP → Kreatin + ATP; keine direkte Laktatbildung'},
+l:{n:'Anaerob-laktazid',s:'▲ Rot, Diagonalmuster',q:'Glukose bzw. Muskelglykogen (schnelle Glykolyse)',o:'Die Glykolyse verbraucht selbst keinen Sauerstoff',z:'Zellplasma',r:'hoch',k:'begrenzt',b:'400-m-Lauf, intensive Aktionen im Spiel',x:'Laktatbildung'},
+c:{n:'Aerob aus Kohlenhydraten',s:'■ Blau, Streifenmuster',q:'Glukose und Glykogen',o:'Sauerstofftransport wichtig',z:'vor allem Mitochondrien',r:'geringere maximale Rate als die anaeroben Wege',k:'hoch',b:'30-Minuten-Lauf, 800-m-Lauf',x:'oxidative Verarbeitung'},
+f:{n:'Aerob aus Fetten',s:'◆ Grün, Punktraster',q:'Fettsäuren',o:'Sauerstoff nötig (oxidative Verarbeitung)',z:'vor allem Mitochondrien',r:'geringere maximale Rate',k:'sehr große Reserven',b:'längere ruhige Radtour; läuft aber von Beginn an mit',x:'besonders wichtig bei längeren Belastungen niedriger bis moderater Intensität'}};
+let sel=[];
+$('#wcards').innerHTML=Object.keys(W).map(k=>`<label class="card opt" style="cursor:pointer"><input type="checkbox" value="${k}"><b>${W[k].n}</b><div class="tr" style="margin:.3rem 0"><div class="bf ${k}"></div></div>${W[k].s}<br>${W[k].x}</label>`).join('');
+$('#wcards').onchange=e=>{const v=e.target.value;sel=sel.filter(x=>x!=v);if(e.target.checked)sel.push(v);if(sel.length>2)sel.shift();$$('#wcards input').forEach(i=>i.checked=sel.includes(i.value));
+const R=[['Energiequelle','q'],['Sauerstoff','o'],['Zellbereich','z'],['Rate','r'],['Kapazität','k'],['Sportbeispiel','b']];
+$('#wtab').innerHTML=sel.length?'<table><tr><th>Kriterium</th>'+sel.map(k=>`<th>${W[k].n}</th>`).join('')+'</tr>'+R.map(r=>`<tr><th>${r[0]}</th>`+sel.map(k=>`<td>${W[k][r[1]]}</td>`).join('')+'</tr>').join('')+'</table>':''};
+$('#stab').innerHTML='<table><tr><th>Kriterium</th>'+Object.keys(W).map(k=>`<th>${W[k].n}</th>`).join('')+'</tr>'+[['Energiequelle','q'],['Zellbereich','z'],['Rate','r'],['Kapazität','k']].map(r=>`<tr><th>${r[0]}</th>`+Object.keys(W).map(k=>`<td>${W[k][r[1]]}</td>`).join('')+'</tr>').join('')+'</table>';
+
+/* Modul 4 */
+const TK=[{n:'Schneller Speicher',c:50,r:36,d:2,t:'Kleiner Vorrat, breiter Auslass: viel pro Zeit, aber schnell leer.'},{n:'Mittlerer Speicher',c:110,r:16,d:7,t:'Mittlerer Vorrat, mittlere Rate.'},{n:'Großer Speicher',c:170,r:6,d:14,t:'Großer Vorrat, schmaler Auslass: wenig pro Zeit, hält aber lange (Zeiten schematisch).'}];let tk=0;
+function drawTank(){const t=TK[tk];$('#tank').innerHTML=`<title>Speichermodell</title><desc>${t.n}: ${t.t}</desc><rect x="40" y="${190-t.c}" width="90" height="${t.c}" fill="none" stroke="#0f172a" stroke-width="3"/><rect id="lv" class="fill c" x="42" y="${192-t.c}" width="86" height="${t.c-4}" style="transform:scaleY(1)"/><rect x="130" y="${190-t.r}" width="80" height="${t.r}" fill="#64748b"/><text x="215" y="${186-t.r/2}" font-size="12">Auslass</text><text x="40" y="${184-t.c}" font-size="12">Vorrat (Kapazität)</text>`;fb($('#stfb'),null,`<b>${t.n}:</b> ${t.t}`)}
+$$('[data-st]').forEach(b=>b.onclick=()=>{tk=+b.dataset.st;drawTank()});
+$('#drain').onclick=()=>{const l=$('#lv');l.style.transition=`transform ${TK[tk].d}s linear`;l.style.transform='scaleY(0)'};
+$('#refill').onclick=drawTank;drawTank();
+
+/* Modul 5 */
+const LV={'sehr gering':1,'gering':2,'gering bis mittel':2.5,'mittel':3,'mittel bis hoch':3.5,'hoch':4,'sehr hoch':5};
+const SC={sp:['Maximaler Sprint (ca. 6–10 s)','maximal','sehr kurz',['sehr hoch','mittel','gering','sehr gering'],'Sehr hohe Leistung für wenige Sekunden: Die höchste Rate (Kreatinphosphat) dominiert. Die anderen Wege laufen mit, liefern aber weniger.'],
+m4:['400-m-Lauf','sehr hoch','gut eine Minute',['mittel','hoch','mittel bis hoch','gering'],'Kreatinphosphat vor allem früh, hoher laktazider Beitrag; die aerobe Bereitstellung läuft von Beginn an mit.'],
+m8:['800-m-Lauf','hoch','etwa zwei Minuten',['gering bis mittel','hoch','hoch','gering'],'Gesamt tragen laktazide und aerobe Bereitstellung beide viel bei, der Lauf ist nicht überwiegend anaerob. Ein Endspurt verschiebt den momentanen Mix, ändert aber nicht rückwirkend den ganzen Lauf.'],
+d30:['Moderater 30-Minuten-Lauf','moderat','30 Minuten',['sehr gering','gering','hoch','mittel bis hoch'],'Gleichmäßig und moderat: Aerobe Bereitstellung aus Kohlenhydraten und Fetten trägt hauptsächlich. Kreatinphosphat hilft vor allem am Anfang.'],
+rad:['Längere ruhige Radtour','niedrig','mehrere Stunden',['sehr gering','sehr gering','mittel','hoch'],'Niedrige Intensität über lange Zeit: Fette tragen besonders viel bei, Kohlenhydrate laufen mit.']};
+const PH={g:['Gesamtbeitrag über das ganze Rennen',null],s:['Momentaner Beitrag im Start',['hoch','mittel','mittel','gering']],h:['Momentaner Beitrag in der Hauptphase',['gering','mittel bis hoch','hoch','gering']],e:['Momentaner Beitrag im Endspurt',['mittel','hoch','hoch','gering']]};
+const WK=['a','l','c','f'];
+$('#sc').innerHTML=Object.keys(SC).map(k=>`<option value="${k}">${SC[k][0]}</option>`).join('');
+function mix(){const k=$('#sc').value,s=SC[k],is8=k=='m8';$('#phs').hidden=!is8;let v=s[3],lab='Gesamtbild';if(is8){const p=PH[$('input[name=ph]:checked').value];if(p[1])v=p[1];lab=p[0]}
+$('#mixinfo').innerHTML=`Intensität: <b>${s[1]}</b> · Dauer: <b>${s[2]}</b> · Ansicht: <b>${lab}</b>`;
+$('#mix').innerHTML=WK.map((w,i)=>`<div class="r"><span>${W[w].s.split(',')[0]} ${W[w].n}</span><div class="tr"><div class="bf ${w}" style="width:${LV[v[i]]*20}%"></div></div><b>${v[i]}</b></div>`).join('');
+fb($('#mixwhy'),null,s[4]+' Fettverbrennung läuft in jedem Szenario von Beginn an mit.')}
+$('#sc').onchange=mix;$$('input[name=ph]').forEach(i=>i.onchange=mix);mix();
+
+/* Modul 6 */
+function lac(){const b=+$('#rb').value,a=+$('#ra').value;$('#ob').textContent=b;$('#oa').textContent=a;const d=b-a;$('#mt').style.width=(d>0?55+d*11:d==0?35:20)+'%';
+fb($('#lafb'),null,d>0?'Bildung größer als Weiterverwendung: Die dargestellte Konzentration <b>steigt</b>.':d==0?'Bildung und Weiterverwendung im Gleichgewicht: Die Konzentration bleibt <b>stabil</b>.':'Weiterverwendung größer: Die Konzentration bleibt niedrig bzw. <b>sinkt</b>.')}
+$('#rb').oninput=lac;$('#ra').oninput=lac;lac();
+const CP=['Niedrige Intensität: Laktat wird gebildet und zugleich weiterverwendet, der Blutwert bleibt niedrig. Aerobe Bereitstellung dominiert.','Etwa im Bereich der traditionellen Orientierung 2 mmol/l: Der Blutwert beginnt anzusteigen. Wo das für eine Person liegt, ist individuell.','Etwa im Bereich der traditionellen Orientierung 4 mmol/l: Die Bildung nähert sich der Grenze der Weiterverwendung. Keine universelle Grenze; aerobe Bereitstellung bleibt beteiligt.','Hohe Intensität: Die Bildung übersteigt die Weiterverwendung deutlich, der Blutwert steigt steil; die Belastung ist nur kurz haltbar.'];
+$$('[data-cp]').forEach(b=>b.onclick=()=>fb($('#cpfb'),null,`<b>Punkt ${+b.dataset.cp+1}:</b> ${CP[b.dataset.cp]}`));
+
+/* Modul 8 */
+const PL=[['Methode',['Extensive Dauermethode','Intensive Dauermethode','Extensive Intervallmethode','Intensive Intervallmethode']],['Intensität',['leicht (Borg 11–13)','anstrengend (Borg 15–17)','maximal (Borg 19–20)']],['Dauer',['10 Minuten am Stück','20 Minuten im Wechsel Laufen/Gehen','30 Minuten am Stück ab Woche 1']],['Pausen',['keine Pause','kurze Gehpausen (Belastung : Erholung = 2 : 1)']],['Häufigkeit',['1× pro Woche','2–3× pro Woche mit Erholungstagen','6× pro Woche']],['Nächste Anpassung',['nach 2–3 Wochen nur die Dauer leicht steigern','Dauer und Intensität gleichzeitig steigern','nichts verändern']]];
+$('#pl').innerHTML=PL.map((p,i)=>`<p><label>${p[0]}: <select data-p="${i}">${p[1].map((o,j)=>`<option value="${j}">${o}</option>`).join('')}</select></label></p>`).join('')+'<button class="p" id="plb">Plan prüfen</button>';
+$('#plb').onclick=()=>{const [m,i,d,p,h,a]=$$('#pl select').map(s=>+s.value);
+const C=[[i==0,'Intensität: leicht ist für den Einstieg moderat.','Die Intensität ist für einen Einstieg zu hoch.'],
+[d<2,'Dauer: Der Einstieg ist nicht überfordernd.','30 Minuten am Stück ab Woche 1 sind für den Einstieg zu viel. Das Ziel wird schrittweise erreicht.'],
+[h==1,'Häufigkeit: Mit Erholungstagen ist Erholung berücksichtigt.',h==0?'Einmal pro Woche reicht kaum für Anpassung.':'Sechsmal pro Woche lässt zu wenig Erholung.'],
+[(m<2)==(p==0),'Methode und Pausen passen zusammen.','Methode und Pausen passen nicht: Dauermethoden laufen ohne Pause, Intervallmethoden wechseln Belastung und Erholung.'],
+[!((m==1||m==3)&&i==0)&&!((m==0||m==2)&&i==2),'Methode und Intensität passen zusammen.','Methode und Intensität widersprechen sich (intensive Methoden brauchen höhere, extensive geringere Intensität).'],
+[m!=3,'Methode ist für den Einstieg geeignet.','Die intensive Intervallmethode ist für einen Einstieg wenig geeignet.'],
+[a==0,'Anpassung: Es wird nur eine Größe langsam gesteigert.',a==1?'Nicht alles gleichzeitig steigern: Erst die Dauer, dann die Intensität.':'Ohne Anpassung bleibt der Reiz gleich; die Entwicklung stagniert.']];
+const bad=C.filter(c=>!c[0]).length;
+fb($('#plfb'),bad==0,'<ul>'+C.map(c=>`<li>${c[0]?'✔ '+c[1]:'⚠ '+c[2]}</li>`).join('')+`</ul><p>${bad==0?'Plausibler Einstieg.':bad+' Punkt(e) überdenken.'} Didaktisches Fallbeispiel – kein individueller medizinischer Trainingsplan.</p>`)};
+
+/* Offene Aufgaben */
+const OP={plan:['Begründe in drei bis vier Sätzen, warum dein Plan für den Einstieg sinnvoll ist. (Wird nicht automatisch bewertet.)','Beispiel: Ich wähle die extensive Dauermethode bei leichter Intensität, zunächst nur kurze Einheiten mit Gehpausen, 2–3× pro Woche mit Erholungstagen. So gewöhnt sich der Körper schrittweise an die Belastung. Nach einigen Wochen steigere ich zuerst die Dauer, nicht gleichzeitig die Intensität.',['Intensität moderat begründet','Erholung berücksichtigt','Methode und Pausen passen','Nur eine Größe wird gesteigert']],
+leit:['Schreibe zuerst deine eigene Antwort. (Wird nicht automatisch bewertet.)','Für sehr schnelles Tempo stehen Wege mit sehr hoher Rate zur Verfügung (Kreatinphosphat, schnelle Glykolyse). Ihre Kapazität ist aber begrenzt. Für lange Belastung trägt vor allem die aerobe Bereitstellung aus Kohlenhydraten und Fetten: Ihre Rate ist geringer, die Kapazität groß. Alle Wege arbeiten parallel; mit steigender Intensität verschiebt sich der Mix. Deshalb geht kurz sehr schnell, lang nur mit geringerem Tempo.',['ATP wird ständig erneuert','Rate und Kapazität unterschieden','Parallelität erwähnt','Zusammenhang mit Intensität und Dauer']]};
+$$('[data-open]').forEach(el=>{const [q,m,c]=OP[el.dataset.open];const id='o'+el.dataset.open;el.className='card';
+el.innerHTML=`<label for="${id}"><b>${q}</b></label><textarea id="${id}"></textarea><button>Musterantwort und Checkliste zeigen</button><div hidden aria-live="polite"><p><b>Musterantwort:</b> ${m}</p><fieldset><legend>Selbsteinschätzung: Habe ich das berücksichtigt?</legend>${c.map(x=>`<label class="opt"><input type="checkbox">${x}</label>`).join('')}</fieldset></div>`;
+el.querySelector('button').onclick=()=>el.querySelector('div').hidden=false});
+
+/* Selbsttest */
+const Q=[['ATP','Warum muss ATP ständig erneuert werden?',['Der Muskel speichert nur wenig ATP, und Muskelarbeit verbraucht es laufend','ATP wird nur nach dem Sport gebildet','Beim Laufen wird ATP nicht verbraucht'],[0],2,'Der ATP-Vorrat ist klein; Verbrauch und Erneuerung laufen gleichzeitig.'],
+['Rate/Kapazität','Welche Aussage über Kreatinphosphat passt?',['Sehr hohe Rate, geringe Kapazität','Hohe Kapazität, geringe Rate','Geringe Rate, geringe Kapazität'],[0],4,'Der Weg liefert sehr schnell, ist aber schnell erschöpft.'],
+['Parallelität','400-m-Lauf. Wähle alle zutreffenden Aussagen (Mehrfachauswahl).',['Mehrere Wege tragen gleichzeitig bei','Der laktazide Weg trägt viel bei','Die aerobe Bereitstellung ist nicht beteiligt','Die Wege laufen strikt nacheinander'],[0,1],5,'Die Wege laufen parallel; aerob ist von Beginn an beteiligt.'],
+['Fett','Wann beginnt die Fettverbrennung?',['Sie läuft von Beginn an mit; ihr Anteil hängt von Intensität und Dauer ab','Erst nach 30 Minuten','Nur in Ruhe'],[0],5,'Es gibt keine feste Startzeit; die Wege überlappen.'],
+['Laktat','Muskelkater am Folgetag …',['wird von Laktat verursacht','ist nicht durch Laktat verursacht','zeigt Sauerstoffmangel an'],[1],6,'Laktat ist nicht die Ursache von Muskelkater.'],
+['Laktat','Was bedeutet die 4-mmol/l-Marke?',['Ein traditioneller Orientierungswert, keine universelle Grenze','Die individuelle Grenze jeder Person','Ab hier nur noch anaerob'],[0],6,'Schwellen sind individuell, aerobe Bereitstellung bleibt beteiligt.'],
+['Methoden','Wodurch unterscheiden sich Trainingsmethoden?',['Durch die Gestaltung von Belastung und Erholung','Nur durch die Sportart','Nur durch die Laufstrecke'],[0],7,'Intensität, Dauer, Pausen und Wechsel prägen die Methode.'],
+['Methoden','Intervallmethode. Wähle alle zutreffenden Aussagen (Mehrfachauswahl).',['Planmäßiger Wechsel von Belastung und Erholung','Die Pausen können unvollständige Erholung bedeuten','Liegt immer oberhalb der anaeroben Schwelle','Es gibt keine Pausen'],[0,1],7,'Intervalltraining liegt nicht automatisch über der Schwelle.'],
+['Planung','Eine untrainierte Person plant ab Woche 1 sechsmal pro Woche 30 Minuten sehr intensiv. Beurteilung?',['Zu viel auf einmal; besser moderat starten mit Erholung','Ideal','Zu wenig'],[0],8,'Belastung und Erholung gehören zusammen; Steigerung schrittweise.']];
+function quiz(){$('#quiz').innerHTML=Q.map((q,i)=>`<fieldset class="card"><legend>Aufgabe ${i+1}: ${q[1]}</legend>${q[2].map((o,j)=>`<label class="opt"><input type="${q[3].length>1?'checkbox':'radio'}" name="z${i}" value="${j}">${o}</label>`).join('')}<div class="fb" id="zf${i}" aria-live="polite"></div></fieldset>`).join('');$('#qres').className='fb';$('#qres').innerHTML=''}
+quiz();$('#qre').onclick=quiz;
+$('#qgo').onclick=()=>{const T={};Q.forEach((q,i)=>{const s=$$(`input[name=z${i}]:checked`).map(x=>+x.value);const ok=s.length==q[3].length&&q[3].every(x=>s.includes(x));
+(T[q[0]]=T[q[0]]||[0,0])[1]++;if(ok)T[q[0]][0]++;
+let t=(ok?'✔ Richtig. ':'✖ Noch nicht. ')+q[5];if(!ok&&q[3].length>1)t+=` Fehlend: ${q[3].filter(x=>!s.includes(x)).map(x=>q[2][x]).join('; ')||'–'}. Falsch gewählt: ${s.filter(x=>!q[3].includes(x)).map(x=>q[2][x]).join('; ')||'–'}.`;
+fb($('#zf'+i),ok,t+(ok?'':` <button type="button" onclick="show(${q[4]})">Zu Modul ${q[4]}</button>`))});
+fb($('#qres'),null,'<b>Lernstand:</b><ul>'+Object.entries(T).map(([k,v])=>`<li>${k}: ${v[0]} von ${v[1]} – ${v[0]==v[1]?'sicher':v[0]*2>=v[1]?'noch üben':'wiederholen'}</li>`).join('')+'</ul>Die offene Abschlussaufgabe zählt nicht in den Lernstand.')};
+
+/* Glossar */
+const G=[['Ausdauer','Fähigkeit, Belastungen lange durchzuhalten und sich schnell zu erholen.'],['Ermüdungswiderstandsfähigkeit','Belastung durchhalten, ohne dass die Leistung stark sinkt.'],['Erholungsfähigkeit','Schnelle Wiederherstellung nach Belastung.'],['ATP','Adenosintriphosphat, direkte Energiewährung der Zelle.'],['ADP','Adenosindiphosphat, entsteht bei der ATP-Spaltung.'],['Resynthese','Wiederaufbau von ATP aus ADP und Phosphat.'],['Kreatinphosphat','Speicherstoff für die sehr schnelle ATP-Erneuerung.'],['Glykolyse','Abbau von Glukose im Zellplasma.'],['Mitochondrium','Zellbestandteil, in dem vor allem die aerobe Bereitstellung abläuft.'],['Aerob','Mit Sauerstoff (oxidativ).'],['Anaerob','Ohne unmittelbaren Sauerstoffverbrauch des Reaktionswegs.'],['Alaktazid','Ohne direkte Laktatbildung.'],['Laktazid','Mit Laktatbildung.'],['Laktat','Stoffwechselprodukt und nutzbarer Energieträger.'],['Bereitstellungsrate','Wie viel ATP pro Zeit erneuert werden kann.'],['Kapazität','Wie viel Energie insgesamt zur Verfügung steht.'],['Schwelle','Orientierungspunkt im Laktatverlauf; individuell verschieden.'],['Schlagvolumen','Blutmenge, die das Herz pro Schlag auswirft.'],['Kapillarisierung','Dichte der feinen Blutgefäße im Muskel.'],['Extensiv / intensiv','Geringere bzw. höhere Intensität einer Methode.'],['Unvollständige Erholung','Pause, die nicht für eine volle Erholung reicht.'],['Dichte','Verhältnis Belastung : Erholung.'],['Umfang','Gesamte Belastungsmenge einer Einheit oder Woche.'],['Borg-Skala (6–20)','Skala zur Einschätzung der empfundenen Anstrengung.'],['Fahrtspiel','Dauerlauf mit frei wechselndem Tempo.']];
+$('#gl').innerHTML=G.map(g=>`<dt><b>${g[0]}</b></dt><dd>${g[1]}</dd>`).join('');
+show(0);
+</script></body></html>
